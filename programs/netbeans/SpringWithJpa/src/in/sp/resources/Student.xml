@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    
+<hibernate-mapping>
+
+    <class name="in.sp.entity.Student" table="student_marks">
+        <id name="id" column="std_id" />
+        <property name="name" column="std_name" />
+        <property name="email" column="std_email" />
+        <property name="marks" column="std_marks" />
+    </class>
+    
+</hibernate-mapping>
